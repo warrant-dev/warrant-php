@@ -1,0 +1,20 @@
+{
+    "name": "warrant-dev/warrant-php",
+    "description": "PHP Client SDK for Warrant",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Warrant\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Warrant",
+            "email": "hello@warrant.dev"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
